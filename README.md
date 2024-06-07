@@ -1,2 +1,0 @@
-# Auth
-# Author - Alena Saigina
