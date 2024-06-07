@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f9eaf5; /* Нежный оттенок розового для фона */
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+}
+h2 {
+    margin-top: 20px;
+    color: #ffd1e8; /* Розовый цвет для заголовков h2 */
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fdd4ee; /* Более светлый оттенок розового для форм */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(119, 255, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #ff69b4; /* Розовый цвет для текста меток */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ffb6c1; /* Нежный розовый цвет для обводки полей ввода и кнопки */
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #ff7dc2; /* Яркий розовый цвет для кнопки отправки */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff69b4; /* Немного темнее розовый цвет при наведении на кнопку */
+}
